@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Translate</title>
+</head>
+
+<body>
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">ISLT</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a href="/home" <button
+          class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none mr-5 hover:text-gray-900 rounded text-lg">HOME
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+          </button>
+        </a>
+        <a href="/about" <button
+          class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none mr-5 hover:text-gray-900 rounded text-lg">ABOUT
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+          </button>
+        </a>
+        <a href="/contact" <button
+          class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none mr-5 hover:text-gray-900 rounded text-lg">CONTACTS
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+          </button>
+        </a>
+
+      </nav>
+    </div>
+  </header>
+</body>
+
+</html>
+<style>
+  .navbar {
+    background-color: #121111;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: #3a3333;
+    color: rgba(40, 38, 38, 0.295);
+  }
+
+  .sign-language-icon {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url('path/to/sign-language-icon.svg');
+    background-size: cover;
+    margin-right: 5px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+  }
+
+  .navbar {
+    border: 5px outset rgb(33, 32, 32);
+    background-color: rgba(255, 255, 255, 0.541);
+    text-align: center;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 15px;
+  }
+
+  .column {
+    border: 5px outset rgb(30, 27, 27);
+    background-color: rgba(3, 3, 3, 0.541);
+    text-align: center;
+    height: 600px;
+    padding-bottom: 10px;
+    margin: 6px;
+  }
+
+  .cholan {
+    border: 5px outset rgb(36, 33, 33);
+    background-color: rgba(3, 3, 3, 0.541);
+    text-align: center;
+    font-size: 40px;
+    height: auto;
+    border-radius: 30px;
+
+  }
+
+  .outputtext {
+    border: 5px outset rgb(0, 0, 0);
+    background-color: rgba(3, 3, 3, 0.541);
+
+    height: 430px;
+    width: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+
+
+  }
+
+  #myTextarea {
+    border: 2px outset rgb(50, 21, 21);
+    background-color: rgb(255, 255, 255);
+
+    height: auto;
+    width: 900px;
+    height: 340px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+
+  .inputvid {
+    border: 2px outset rgb(36, 33, 33);
+
+    background-color: rgba(99, 60, 189, 0.74);
+
+    height: 100px;
+    border-radius: 30px;
+    margin: 200px;
+    text-align: center;
+
+
+
+
+
+
+
+  }
+
+  .image {
+    margin-top: 10px;
+  }
+</style>
+
+
+<body style="background-color: rgb(255, 255, 255);">
+  <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+  <div class="navbar">
+    <img src="https://www.kindpng.com/picc/m/341-3412173_transparent-language-icon-png-sign-language-okay-symbol.png"
+      width="100" height="100" alt="" class="center">
+    <h6>SIGN LANGUAGUE TRANSLATOR </h6>
+  </div>
+
+  </div>
+
+
+  <div class="row">
+    <div class="column" style="background-color:#ffffff;">
+
+      <div class=cholan style="background-color: rgba(99, 60, 189, 0.74)" ;><label for="signlanguague">Choose a Sign
+          Languague : </label>
+        <select name="signlanguague" id="signlanguague"
+          style="width: 150px;height: 30px;font-size: 20px;margin-bottom: 8px;">
+          <option value="indian">Indian </option>
+
+        </select>
+      </div>
+      <div class="inputvid">
+        <a>{{mssg}}</a>
+        <form action="/" method="post" enctype="multipart/form-data" class="form">
+          <input type="file" name="video" id="video"
+            style="width: 500px; font-size: 25px;margin-top: 10px;margin-left: 30px;">
+          <input type="submit" value="Upload Video" name="submit"
+            style="width: 450px; font-size: 20px;margin-top: 10px;margin-left: 30px;">
+        </form>
+      </div>
+
+    </div>
+    <div class="column" style="background-color:#ffffff;">
+      <div class=cholan style="background-color: rgba(99, 60, 189, 0.74)" ;>
+        <label for="languague">Choose a languague :</label>
+        <select name="languague" id="languague" style="width: 150px;height: 30px;font-size: 20px;margin-bottom: 8px;">
+          <option value="english">English </option>
+
+        </select>
+      </div>
+      <div class="outputtext" style="background-color: rgba(99, 60, 189, 0.74)" ;>
+        <h3>OUTPUT TEXT : </h3>
+
+        <div>
+          <textarea id="myTextarea" rows="4" cols="50">{{output}}</textarea>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
